@@ -1,0 +1,6 @@
+<FormGenerator apiType="{{ type }}" stateName="{{ state }}"
+apiVerb="{{ verb }}" submitButton="Submit" onSubmitSuccess={this.props.submitSuccess}>
+    {% for title,s in schemaMap %}{% if title!="id" %}
+        <InputMapper name="{{ title }}" label="{{ s.title }}"/>{% endif %}
+    {% endfor %}
+</FormGenerator>

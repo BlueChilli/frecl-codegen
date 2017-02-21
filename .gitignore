@@ -1,0 +1,4 @@
+.idea
+node_modules
+_templates
+.DS_Store

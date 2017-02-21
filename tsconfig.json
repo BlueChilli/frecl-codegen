@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "inlineSourceMap": false,
+        "inlineSources": false,
+        "preserveConstEnums": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "jsx": "preserve",
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "./src",
+        "allowJs": true,
+        "outDir": "./dist",
+        "types": [
+            "./node_modules/immutable/dist/immutable.d.ts"
+        ]
+    },
+    "lib": [
+        "es2015"
+    ],
+    "exclude": [
+        "./node_modules"
+    ],
+    "files": [
+        "./src/main.ts"
+    ]
+}
